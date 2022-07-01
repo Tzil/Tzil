@@ -1,0 +1,20 @@
+Pantalla 1: Expedientes clinicos, principal
+
+s1 * barra de busqueda - botón de Agregar expediente
+s2 * listado expedientes, nombre paciente -> al tocar manda a:
+pantalla detalle de expediente
+
+comentarios: el listado inicial, tendría a los pacientes que se hayan actualizado en menos de 1 año
+
+Pantalla 2: Detalle expediente
+s1 * b. tratamientos -> pantalla de tratamientos.
+s2 * datos del paciente: Nombre, f de nacimiento, peso, correo, telefono +otros relevantes
+s3 * listado de padecimientos existentes
+
+
+s1 * b. agregar tratamiento, datos:
+default: f inicio, f fin, tratamiento txt (posible catalogo)
+s2 * Listado de tratamientos, ejemplo:
+
+f inicio-f fin | consulta en clinica | 
+f inicio-f fin | edodoncia en x pieza |
